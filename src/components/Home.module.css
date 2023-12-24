@@ -1,0 +1,15 @@
+.appHome {
+  /* background-color: whitesmoke; */
+  align-items: center;
+  flex-direction: column;
+  height: 80px;
+}
+
+.app__body {
+  display: flex;
+  /* background-color: whitesmoke; */
+}
+
+.footer__body {
+  height: 100px;
+}

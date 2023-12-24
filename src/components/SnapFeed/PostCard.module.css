@@ -1,0 +1,57 @@
+.postcardmain {
+  width: 550px;
+  min-height: auto;
+  background-color: whitesmoke;
+  margin-top: 30px;
+  border: 1px solid #b7b7b7;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  box-shadow: 10px 5px 25px gray;
+}
+
+.statusmain {
+  text-align: left;
+  margin: 10px 0 0 10px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.timestampmain {
+  font-family: system-ui, sans-serif;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  margin: 10px 0 0 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+.namemain {
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  color: gray;
+  font-weight: 600;
+  margin: 10px 0 0 10px;
+  cursor: pointer;
+}
+
+.editicon {
+  color: gray;
+  position: relative;
+  bottom: 60px;
+
+  float: right;
+  padding: 5px;
+}
+
+.trashicon {
+  color: gray;
+  position: relative;
+  bottom: 60px;
+  float: right;
+  padding: 5px;
+}

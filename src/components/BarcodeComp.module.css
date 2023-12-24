@@ -1,0 +1,263 @@
+.nav_bottom_barcode {
+  position: relative;
+  display: flex;
+  top: 750px;
+  right: 240px;
+  width: 200px;
+  margin-right: 15px;
+  vertical-align: top;
+}
+
+.barimage {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: 0px 0px;
+  background-size: cover;
+  position: relative;
+  left: 0px;
+  display: inline-block;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2 / 1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .barCodImg {
+    background-size: 65px 65px;
+  }
+}
+
+.bar_code_info {
+  width: 113px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 7px;
+  position: relative;
+  left: 10px;
+}
+
+.head {
+  line-height: 1.3;
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 9px;
+  display: block;
+}
+
+.desc {
+  font-size: 11px;
+  color: #999;
+  display: block;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .nav_bottom_barcode {
+    position: relative;
+    display: flex;
+    top: 1050px;
+    right: 975px;
+    width: 200px;
+
+    margin-right: 15px;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .barimage {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: 0px 0px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 115px;
+  }
+
+  .bar_code_info {
+    width: 90px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    position: relative;
+    top: 25px;
+    left: 110px;
+  }
+
+  .head {
+    line-height: 1.3;
+    font-size: 9px;
+    color: #333;
+    margin-bottom: 9px;
+    display: block;
+  }
+
+  .desc {
+    font-size: 8px;
+    color: #999;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .barimage {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: 0px 0px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 90px;
+  }
+
+  .bar_code_info {
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    position: relative;
+    top: 145px;
+    left: 85px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1080px) {
+  .barimage {
+    display: inline-block;
+    width: 65px;
+    height: 55px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: 0px 0px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 115px;
+  }
+
+  .bar_code_info {
+    width: 90px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    position: relative;
+    top: 25px;
+    left: 110px;
+  }
+
+  .head {
+    line-height: 1.3;
+    font-size: 9px;
+    color: #333;
+    margin-bottom: 9px;
+    display: block;
+  }
+
+  .desc {
+    font-size: 8px;
+    color: #999;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 870px) and (max-width: 970px) {
+  .barimage {
+    display: inline-block;
+    width: 65px;
+    height: 55px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: 0px 0px;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 85px;
+  }
+
+  .bar_code_info {
+    width: 90px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    position: relative;
+    top: 25px;
+    left: 85px;
+  }
+
+  .head {
+    line-height: 1.3;
+    font-size: 9px;
+    color: #333;
+    margin-bottom: 9px;
+    display: block;
+  }
+
+  .desc {
+    font-size: 8px;
+    color: #999;
+    display: block;
+  }
+
+  .nav_bottom_barcode {
+    position: relative;
+    display: flex;
+    top: 750px;
+    right: 905px;
+    width: 200px;
+
+    margin-right: 15px;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (min-width: 870px) and (max-width: 970px) {
+  .nav_bottom_barcode {
+    position: relative;
+    display: flex;
+    top: 750px;
+    right: 905px;
+    width: 200px;
+
+    margin-right: 15px;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 860px) {
+  .nav_bottom_barcode {
+    position: relative;
+    display: flex;
+    top: 750px;
+    right: 855px;
+    width: 200px;
+
+    margin-right: 15px;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (min-width: 690px) and (max-width: 790px) {
+  .nav_bottom_barcode {
+    visibility: hidden;
+  }
+}

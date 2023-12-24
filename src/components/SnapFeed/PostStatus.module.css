@@ -1,0 +1,79 @@
+.post_statusmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46%;
+  position: relative;
+  left: 290px;
+  bottom: 1070px;
+  flex-direction: column;
+  border-radius: 7px;
+  /* background-color: whitesmoke;
+  margin: 10px 10px 30px 10px; */
+  padding-bottom: 40px;
+  /* box-shadow: 10px 5px 25px gray; */
+}
+
+.post_statusmod {
+  width: 600px;
+  height: 150px;
+  background-color: whitesmoke;
+  margin-top: 30px;
+  border: 1px solid #b7b7b7;
+  border-radius: 7px;
+  position: relative;
+  bottom: 30px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.openpostmodal {
+  width: 85%;
+  height: 50px;
+  text-align: left;
+  color: rgba(84, 84, 84, 0.89);
+  background-color: whitesmoke;
+  outline: none;
+  border: 1px solid #b7b7b7;
+  border-radius: 30px;
+  margin-left: 0px;
+  margin-top: 30px;
+  cursor: pointer;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: system-ui, sans-serif;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.openpostmodal:hover {
+  background-color: #dcdbdb;
+}
+
+.snapLogomod {
+  width: 55px;
+}
+
+.postcreateOptions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.postcreateOptionsp {
+  display: flex;
+  margin-top: 15px;
+  font-size: 15px;
+  color: gray;
+}
+
+.postcreateOptionsp:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.photoicon {
+  margin-right: 10px;
+  position: relative;
+  top: 5px;
+}

@@ -1,0 +1,16 @@
+.autocompletemod {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #eef3f8;
+  border-bottom: 1px solid #d4d4d4;
+  position: relative;
+  z-index: 10;
+  width: 320%;
+  border-radius: 3px;
+}
+
+
+.suggestionsmod {
+  color: gray;
+  font-size: 13px;
+}
